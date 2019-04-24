@@ -4,8 +4,7 @@ def switch(l,a=0,b=-1):
 	#a=l[0]
 	#b=l[len(l)-1]
 	c=l[a]
-	d=l[b]
-	l[a]=d
+	l[a]=l[b]
 	l[b]=c
 	return l
 
